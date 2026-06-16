@@ -2,4 +2,6 @@
 print("Hello World")
 
 Name = input("What is your name? ")
-print(f"Hello, {Name}!")        
+
+age = int(input("How old are you? "))  
+print(f"Hello {Name}, you are {age} years old.")
